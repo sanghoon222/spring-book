@@ -22,5 +22,13 @@
 		<button id="btn-save" class="btn btn-secondary">포스트 등록</button>
 	</div>
 </div>
+<script>
+	$(document).ready(function () {
+		$("#content").summernote({
+			height: 300
+		})
+	})
+</script>
+
 <script src="/js/user.js"></script>
 <%@ include file="../layout/footer.jsp"%>
